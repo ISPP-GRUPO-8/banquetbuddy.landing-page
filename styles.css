@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+nav {
+  background-color: #023d16;
+  height: auto;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer {
+  background-color: #023d16;
+  height: auto;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#about_us h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#app_urls h2 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container {
+  transition: all 0.3s ease;
+}
+
+.container {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
