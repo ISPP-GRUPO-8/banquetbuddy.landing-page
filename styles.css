@@ -25,7 +25,7 @@ p {
 }
 
 nav {
-  background-color: #023d16;
+  background-color: #004439;
   height: auto;
 }
 
@@ -54,7 +54,7 @@ nav {
 }
 
 footer {
-  background-color: #023d16;
+  background-color: #004439;
   height: auto;
 }
 
@@ -75,6 +75,15 @@ footer p {
   color: #333;
   font-size: 36px;
   margin-bottom: 20px;
+}
+
+#app_urls ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#app_urls ul li {
+  padding: 10px 0;
 }
 
 #app_urls h2 {
