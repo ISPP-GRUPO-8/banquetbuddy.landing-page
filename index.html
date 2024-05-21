@@ -16,110 +16,154 @@
     />
     <title>Landing Page - BanquetBuddy</title>
     <link rel="icon" type="image/png" href="static/logo.png" />
-    <script src="index.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
-    <nav>
-      <ul class="menu">
-        <li>
-          <a href="#"> Home</a>
-        </li>
-        <li><a href="#about_us">About us</a></li>
-        <li><a href="#contact_us">Contact us</a></li>
-        <li><a href="#app_urls">Deployments</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BanquetBuddy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact_us">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#app_urls">Deployments</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <div class="container" id="home">
-      <h1>Welcome to BanquetBuddy</h1>
-      <p>
-        We present you BanquetBuddy, your ultimate companion for catering
-        management and connecting with industry professionals! Discover a new
-        way to organize events, find job opportunities in the culinary industry
-        or hire people for your catering.
-      </p>
-      <img
-        src="static/logo-transparente.png"
-        alt="Logo de la aplicación"
-        style="max-width: 500px; margin-top: 2"
-      />
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Welcome to BanquetBuddy</h1>
+          <p>
+            We present you BanquetBuddy, your ultimate companion for catering
+            management and connecting with industry professionals! Discover a
+            new way to organize events, find job opportunities in the culinary
+            industry or hire people for your catering.
+          </p>
+          <img
+            src="static/logo-transparente.png"
+            alt="Logo de la aplicación"
+            class="img-fluid"
+          />
+        </div>
+      </div>
     </div>
 
     <div class="container" id="about_us">
-      <h2>About us</h2>
-      <p>
-        We are group 8 of the ISPP subject in the Engineering career of Software
-        at the University of Seville. We are a dynamic team passionate about
-        developing innovative solutions in the realm of catering management.
-        Join us on our journey to revolutionize the catering industry with
-        BanquetBuddy!
-      </p>
-      <p>
-        GitHub repository:
-        <a href="https://github.com/ISPP-GRUPO-8/BANQUETBUDDY"
-          >https://github.com/ISPP-GRUPO-8/BANQUETBUDDY</a
-        >
-      </p>
+      <div class="row">
+        <div class="col-12">
+          <h2>About us</h2>
+          <p>
+            We are group 8 of the ISPP subject in the Engineering career of
+            Software at the University of Seville. We are a dynamic team
+            passionate about developing innovative solutions in the realm of
+            catering management. Join us on our journey to revolutionize the
+            catering industry with BanquetBuddy!
+          </p>
+          <p>
+            GitHub repository:
+            <a href="https://github.com/ISPP-GRUPO-8/BANQUETBUDDY"
+              >https://github.com/ISPP-GRUPO-8/BANQUETBUDDY</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="container" id="contact_us">
-      <h1>Contact Us</h1>
-      <p>
-        Mail:
-        <a href="banquetbuddyoficial@gmail.com"
-          >banquetbuddyoficial@gmail.com</a
-        >
-      </p>
+      <div class="row">
+        <div class="col-12">
+          <h2>Contact Us</h2>
+          <p>
+            Mail:
+            <a href="mailto:banquetbuddyoficial@gmail.com"
+              >banquetbuddyoficial@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="container" id="app_urls">
-      <h2>Deployments</h2>
-      <ul>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://docusaurus-banquet-buddy.vercel.app/">
-            Docusaurus <i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://banquetbuddy.pythonanywhere.com/">
-            Sprint 1 <i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://banquetbuddys2.pythonanywhere.com/">
-            Sprint 2 <i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://banquetbuddys3.pythonanywhere.com/">
-            Sprint 3 <i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://banquetbuddyppl.pythonanywhere.com/">
-            PPL<i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-        <li>
-          <i class="bi bi-dot"></i>
-          <a href="https://banquetbuddyppl.pythonanywhere.com/">
-            WPL<i class="bi bi-box-arrow-in-up-right"></i>
-          </a>
-        </li>
-      </ul>
-      <p>More coming soon...</p>
+      <div class="row">
+        <div class="col-12">
+          <h2>Deployments</h2>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://docusaurus-banquet-buddy.vercel.app/">
+                Docusaurus <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://banquetbuddy.pythonanywhere.com/">
+                Sprint 1 <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://banquetbuddys2.pythonanywhere.com/">
+                Sprint 2 <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://banquetbuddys3.pythonanywhere.com/">
+                Sprint 3 <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://banquetbuddyppl.pythonanywhere.com/">
+                PPL <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-dot"></i>
+              <a href="https://banquetbuddyppl.pythonanywhere.com/">
+                WPL <i class="bi bi-box-arrow-in-up-right"></i>
+              </a>
+            </li>
+          </ul>
+          <p>More coming soon...</p>
+        </div>
+      </div>
     </div>
 
-    <footer>
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
       <div class="container">
         <p>&copy; 2024 BanquetBuddy. All rights reserved.</p>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-9NDew4gEHuAwKeDUIFaRFS9aYfA4yWN8c0Aad+qAVm6pdbmGpLTtt9p7lfI8La5B"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
