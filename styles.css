@@ -10,9 +10,17 @@ body {
   margin: auto;
   text-align: center;
   padding: 50px 0;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
-h1 {
+.container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h1, h2 {
   color: #333;
   font-size: 36px;
   margin-bottom: 20px;
@@ -26,7 +34,6 @@ p {
 
 nav {
   background-color: #004439;
-  height: auto;
 }
 
 .menu {
@@ -65,13 +72,7 @@ footer p {
   margin: 0;
 }
 
-#about_us h2 {
-  color: #333;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-#contact h2 {
+#about_us h2, #contact_us h2, #app_urls h2 {
   color: #333;
   font-size: 36px;
   margin-bottom: 20px;
@@ -84,24 +85,4 @@ footer p {
 
 #app_urls ul li {
   padding: 10px 0;
-}
-
-#app_urls h2 {
-  color: #333;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.container {
-  transition: all 0.3s ease;
-}
-
-.container {
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.container.active {
-  opacity: 1;
-  transform: translateY(0);
 }
